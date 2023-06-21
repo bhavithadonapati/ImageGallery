@@ -1,0 +1,103 @@
+<style>
+   html,body {
+        position: relative;
+        height: 100%;
+
+      }
+
+      body {
+       box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .swiper-slide {
+        background-size: cover;
+        background-position: center;
+      }
+
+      .mySwiper2 {
+        height: 80%;
+        width: 100%;
+        background-color: pink;
+      }
+
+      .mySwiper {
+        height: 20%;
+        box-sizing: border-box;
+        padding: 1rem;
+      }
+      .mySwiper .swiper-slide{
+        background-color:pink;
+      }
+
+      .mySwiper .swiper-slide {
+        width: 25%;
+        height: 100%;
+        opacity: 0.5;
+      }
+
+      .mySwiper .swiper-slide-thumb-active {
+        opacity: 1;
+      }
+
+      .swiper-slide img {
+        width: 50%;
+        height: 80%;
+        object-fit: cover;
+      }
+     
+      .swiper-button-next{
+        color:black;
+        font-size: 20px;
+        opacity: 1;
+        right: 30px;
+      }
+      .swiper-button-prev{
+        color: black;
+        font-size: 20px;
+        left: 30px;
+      }
+      @media screen  and (max-width : 768px){
+        .swiper-slide img {
+          width: 80%;
+          height: 50%;
+          object-fit: cover;
+        }
+      }
+    </style>
